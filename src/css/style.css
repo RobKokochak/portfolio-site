@@ -1,9 +1,9 @@
 /* CSS Variables */
 
 :root {
-  --amber-100: #efe6d5;
+  --amber-100: #efe7d5;
   --amber-100-transparent: #efe6d51e;
-  --amber-200: #ffecca;
+  --amber-200: #fceed5;
   --amber-300: #ddc59c;
   --orange-gradient: linear-gradient(30deg, #412b61, #975219);
   --box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.379),
@@ -98,7 +98,7 @@ a {
   top: 0;
   right: 0;
   background-color: transparent;
-  color: var(--amber-100);
+  color: var(--amber-200);
   padding: 2rem .5rem;
   margin-top: 3rem;
 }
@@ -122,7 +122,7 @@ a {
   align-items: center;
   width: 2.5rem;
   height: 2.5rem;
-  background-color: var(--amber-100);
+  background-color: var(--amber-200);
   border-radius: 999px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.312);
 }
@@ -133,7 +133,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   padding: .75rem 1rem;
   border-bottom: 1px solid var(--amber-100-transparent);
   background-color: rgba(31, 30, 29, 0.908);
@@ -154,7 +154,7 @@ a {
   white-space: nowrap;
   position: relative;
   margin-right: 1rem;
-  color: var(--amber-100);
+  color: var(--amber-200);
   font-size: 1.5rem;
   font-weight: 400;
   background-color: transparent;
@@ -181,7 +181,7 @@ a {
   height: 2px;
   width: 100%;
   position: absolute;
-  background-color: var(--amber-100);
+  background-color: var(--amber-200);
   transform: scaleX(0);
   transition: transform 0.3s ease 0s;
 }
@@ -234,7 +234,7 @@ a {
 .profile__text {
   font-size: 1.1rem;
   margin-bottom: 1rem;
-  color: var(--amber-100);
+  color: var(--amber-200);
 }
 
 .profile__text--lead {
@@ -271,7 +271,7 @@ a {
   font-size: 2rem;
   text-align: center;
   font-weight: 200;
-  color: var(--amber-100);
+  color: var(--amber-200);
 }
 
 .technologies__list {
@@ -301,7 +301,7 @@ a {
 
 .technologies__title {
   font-weight: 400;
-  color: var(--amber-100);
+  color: var(--amber-200);
 }
 
 /* Projects Section Styles */
@@ -366,7 +366,7 @@ a {
   margin-bottom: 1rem;
   font-size: 1.25rem;
   font-weight: 600;
-  color: var(--amber-100);
+  color: var(--amber-200);
   background-color: transparent;
 }
 
@@ -387,7 +387,7 @@ a {
   border-radius: 9999px;
   font-size: 0.75rem;
   background-color: #d3cab951;
-  color: var(--amber-100);
+  color: var(--amber-200);
 }
 
 .project-card__summary {
@@ -400,7 +400,7 @@ a {
   display: inline-flex;
   align-items: center;
   font-weight: 600;
-  color: var(--amber-100);
+  color: var(--amber-200);
 }
 
 .project-card__link-icon {
@@ -431,7 +431,7 @@ a {
   font-size: 1.8rem;
   font-weight: 700;
   text-align: center;
-  color: var(--amber-100);
+  color: var(--amber-200);
   background: transparent;
 }
 
@@ -466,7 +466,7 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   text-align: center;
-  color: var(--amber-100);
+  color: var(--amber-200);
   background: transparent;
 }
 
@@ -474,7 +474,7 @@ a {
 
 .prose {
   font-size: 1.1rem;
-  color: var(--amber-100);
+  color: var(--amber-200);
 }
 
 .prose ul {
@@ -494,7 +494,7 @@ a {
   top: 0.6875em;
   left: 0.25em;
   border-radius: 50%;
-  background-color: var(--amber-100);
+  background-color: var(--amber-200);
 }
 
 .prose p {
@@ -513,7 +513,7 @@ a {
   margin-top: 6rem;
   font-size: 1.8rem;
   font-weight: 600;
-  color: var(--amber-100);
+  color: var(--amber-200);
 }
 
 .about-content {
@@ -523,6 +523,10 @@ a {
 @media (min-width: 740px) {
   .container {
     margin: 0 auto;
+  }
+
+  .about-content {
+    padding: 0 1.5rem 1rem 1.5rem;
   }
 
   .header {
@@ -559,7 +563,7 @@ a {
   }
 
   .bio {
-    max-width: 100ch;
+    max-width: 75ch;
   }
 
   .projects-section-heading {
