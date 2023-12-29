@@ -1,5 +1,5 @@
 ---
-title: "Rob Kokochak - Lightweight Metronome"
+title: "Lightweight Metronome"
 summary: "When I couldn't find a no-frills, lightweight metronome for macOS, I decided to build my own using SwiftUI."
 image: /images/metronome-screenshots.jpg
 imageAlt: "Screenshot of app"
@@ -26,16 +26,16 @@ Xcode, SwiftUI
 
 ## **Challenges Faced**
 
-**Real-Time Audio Processing**
+- **Real-Time Audio Processing**
 
 There are plenty of tools and libraries for triggering sound samples, But I needed those samples to be triggered at extremely precise intervals, and make those intervals controllable by the user. I managed to find a solution using a high-accuracy timer in combination with the audio engine library provided by SwiftUI, which then triggers the metronome sound sample.  
 
 ## **Lessons Learned**
 
-**Audio Processing**
+- **Audio Processing**
 
 Through this project, I am learning that native low level audio processing is difficult. Documentation is few and far-between, especially for native Apple hardware. Regardless, my end-goal is to have more granular control over the sound generation and interval time, and that will likely require the use of a lower level library like AudioKit or CoreAudio.
 
-**Ongoing**
+- **Ongoing**
 
 Development, testing and deployment to the App Store are still in the works. 
