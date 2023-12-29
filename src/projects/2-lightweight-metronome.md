@@ -1,5 +1,5 @@
 ---
-title: "Lightweight Metronome"
+title: "Rob Kokochak - Lightweight Metronome"
 summary: "When I couldn't find a no-frills, lightweight metronome for macOS, I decided to build my own using SwiftUI."
 image: /images/metronome-screenshots.jpg
 imageAlt: "Screenshot of app"
@@ -38,4 +38,4 @@ Through this project, I am learning that native low level audio processing is di
 
 **Ongoing**
 
-This is an ongoing project - development, testing and deployment to the App Store are still in the works. 
+Development, testing and deployment to the App Store are still in the works. 

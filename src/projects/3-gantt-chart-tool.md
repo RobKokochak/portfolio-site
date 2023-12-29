@@ -1,5 +1,5 @@
 ---
-title: "Gantt Chart Tool"
+title: "Rob Kokochak - Gantt Chart Tool"
 summary: "Struggling to find a Gantt chart tool that didn't charge a subscription fee, we decided to create our own for our SWE project."
 image: /images/gantt-app-screenshot1.png
 imageAlt: "Screenshot of app"

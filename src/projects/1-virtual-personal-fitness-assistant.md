@@ -1,5 +1,5 @@
 ---
-title: "AI Personal Fitness Assistant"
+title: "Rob Kokochak - AI Personal Fitness Assistant"
 summary: "A full-stack app utilizing ChatGPT to provide a conversational interface to set, update and schedule fitness and nutrition goals."
 image: /images/fitness-assistant-screenshots.png
 imageAlt: "Screenshot of Virtual Personal Fitness Assistant"
