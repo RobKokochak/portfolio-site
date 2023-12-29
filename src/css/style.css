@@ -1,10 +1,10 @@
 /* CSS Variables */
 
 :root {
-  --amber-100: #ffecca;
-  --amber-100-transparent: rgba(255, 231, 192, 0.191);
-  --amber-600: #ffecca;
-  --amber-700: #ddc59c;
+  --amber-100: #efe6d5;
+  --amber-100-transparent: #efe6d51e;
+  --amber-200: #ffecca;
+  --amber-300: #ddc59c;
   --orange-gradient: linear-gradient(30deg, #412b61, #975219);
   --box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.379),
     0 4px 6px -4px rgba(0, 0, 0, 0.387);
@@ -136,7 +136,7 @@ a {
   /* flex-wrap: wrap; */
   padding: .75rem 1rem;
   border-bottom: 1px solid var(--amber-100-transparent);
-  background-color: rgba(31, 30, 29, 0.861);
+  background-color: rgba(31, 30, 29, 0.908);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   will-change: transform;
@@ -154,7 +154,7 @@ a {
   white-space: nowrap;
   position: relative;
   margin-right: 1rem;
-  color: var(--amber-600);
+  color: var(--amber-200);
   font-size: 1.5rem;
   font-weight: 400;
   background-color: transparent;
@@ -163,7 +163,7 @@ a {
 .header__links {
   display: flex;
   gap: 1.75rem;
-  color: var(--amber-700);
+  color: var(--amber-200);
   background-color: transparent;
 }
 
@@ -181,7 +181,7 @@ a {
   height: 2px;
   width: 100%;
   position: absolute;
-  background-color: var(--amber-700);
+  background-color: var(--amber-100);
   transform: scaleX(0);
   transition: transform 0.3s ease 0s;
 }
@@ -246,7 +246,6 @@ a {
 .profile__text--highlight {
   font-weight: bold;
   font-size: 1.1rem;
-  color: var(--amber-600);
 }
 
 .profile__text--emphasis {
@@ -272,7 +271,7 @@ a {
   font-size: 2rem;
   text-align: center;
   font-weight: 200;
-  color: var(--amber-600);
+  color: var(--amber-100);
 }
 
 .technologies__list {
@@ -319,7 +318,7 @@ a {
   text-align: center;
   font-size: 2rem;
   font-weight: 400;
-  color: var(--amber-600);
+  color: var(--amber-100);
   background: transparent;
 }
 
@@ -367,7 +366,7 @@ a {
   margin-bottom: 1rem;
   font-size: 1.25rem;
   font-weight: 600;
-  color: var(--amber-600);
+  color: var(--amber-100);
   background-color: transparent;
 }
 
@@ -401,7 +400,7 @@ a {
   display: inline-flex;
   align-items: center;
   font-weight: 600;
-  color: var(--amber-700);
+  color: var(--amber-100);
 }
 
 .project-card__link-icon {
@@ -432,7 +431,7 @@ a {
   font-size: 1.8rem;
   font-weight: 700;
   text-align: center;
-  color: var(--amber-600);
+  color: var(--amber-100);
   background: transparent;
 }
 
@@ -467,7 +466,7 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   text-align: center;
-  color: var(--amber-600);
+  color: var(--amber-100);
   background: transparent;
 }
 
@@ -514,7 +513,7 @@ a {
   margin-top: 6rem;
   font-size: 1.8rem;
   font-weight: 600;
-  color: var(--amber-600);
+  color: var(--amber-100);
 }
 
 .about-content {
