@@ -18,7 +18,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: rgb(36, 35, 33);
+  background-color: rgb(31, 30, 29);
 }
 
 html,
@@ -136,9 +136,9 @@ a {
   /* flex-wrap: wrap; */
   padding: .75rem 1rem;
   border-bottom: 1px solid var(--amber-100-transparent);
-  background-color: rgba(36, 35, 33, 0.814);
-  -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
+  background-color: rgba(31, 30, 29, 0.861);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   will-change: transform;
   z-index: 9;
   position: fixed;
@@ -355,7 +355,7 @@ a {
 
 .project-card__body {
   padding: 1rem;
-  background-color: rgba(36, 35, 33, 0.895);
+  background-color: rgba(31, 30, 29, 0.895);
   height: 100%;
 }
 
