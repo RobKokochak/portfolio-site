@@ -1,0 +1,11 @@
+---
+title: "Rob Kokochak - Projects"
+layout: "base.njk"
+---
+
+<h2 class="projects-page-heading">Recent Personal Projects</h2>
+<div class="project-list">
+  {% asyncEach project in collections.projects %}
+    {% include "project-card.njk" %}
+  {% endeach %}
+</div>

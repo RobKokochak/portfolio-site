@@ -1,0 +1,8 @@
+<section class="projects">
+  <h2 class="projects-section-heading">Recent Personal Projects</h2>
+  <div class="projects-grid">
+    {% asyncEach project in collections.projects %}
+      {% include "project-card.njk" %}
+    {% endeach %}
+  </div>
+</section>
