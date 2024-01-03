@@ -232,7 +232,7 @@ a {
 }
 
 .profile__text {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
   color: var(--amber-200);
 }
@@ -240,7 +240,7 @@ a {
 .profile__text--lead {
   font-family: 'Raleway';
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
 
 .profile__text--highlight {
@@ -268,7 +268,7 @@ a {
 .technologies__heading {
   margin-bottom: 2rem;
   padding-top: 0;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: center;
   font-weight: 200;
   color: var(--amber-200);
@@ -302,6 +302,8 @@ a {
 .technologies__title {
   font-weight: 400;
   color: var(--amber-200);
+  size: 1rem;
+  font-size: 1rem;
 }
 
 /* Projects Section Styles */
@@ -316,7 +318,7 @@ a {
 .projects-section-heading {
   padding-bottom: 1rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   color: var(--amber-100);
   background: transparent;
@@ -473,7 +475,7 @@ a {
 /* Prose Styles */
 
 .prose {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--amber-200);
 }
 
@@ -544,10 +546,19 @@ a {
   .header__link {
     font-size: 1.1rem;
   }
+
   .profile {
     flex-direction: row;
     margin-top: 1rem;
     justify-content: center;
+  }
+
+  .profile__text {
+    font-size: 1.1rem;
+  }
+
+  .profile__text--lead {
+    font-size: 1.8rem;
   }
 
   .profile__image-wrapper img {
@@ -558,8 +569,16 @@ a {
     padding-bottom: 1.25rem;
   }
 
+  .technologies__heading {
+    font-size: 2rem;
+  }
+
   .technologies__list {
     margin-bottom: 1rem;
+  }
+
+  .technologies__title {
+    font-size: 1.1rem;
   }
 
   .bio {
@@ -569,6 +588,7 @@ a {
   .projects-section-heading {
     padding: 1rem 0rem;
     text-align: left;
+    font-size: 2rem;
   }
 
   .projects-grid {
@@ -577,5 +597,9 @@ a {
 
   .floating-buttons {
     margin-top: 3.5rem;
+  }
+
+  .prose {
+    font-size: 1.1rem;
   }
 }
