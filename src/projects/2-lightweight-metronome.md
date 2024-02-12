@@ -44,7 +44,7 @@ Through this project, I've learned that granular control of audio processing is 
 
 - **Apple Development**
 
-Developing for the Apple ecosystem has its quirks, including a clunky Xcode experience and the infamous $99 subscription just to get your apps notarized. While there are certainly frustrations, seeing the app you built become a part of your daily workflow and sharing that utility with others is a great feeling.
+Developing for the Apple ecosystem has its quirks, including a clunky Xcode experience and the infamous $99 subscription to get your apps notarized. While there are certainly frustrations, seeing the app you built become a part of your daily workflow and sharing that utility with others is a great feeling.
 
 - **Logo Design**
 
