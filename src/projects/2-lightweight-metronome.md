@@ -22,7 +22,7 @@ repoUrl: "#"
 
 Create a simple and efficient metronome for macOS. 
 
-There are no shortage of metronome apps for iOS. But as someone who practices near the computer, I needed something quick and easy to pull up on the computer without opening a DAW. While I could use my phone, I have often found my phone battery is drained by the end of a practice session. iOS metronomes tend to have an abundance of features, but I only need the most fundamental in a metronome: keep time. 
+There are no shortage of metronome apps for iOS. But as someone who practices near the computer, I needed something quick and easy to pull up without opening a DAW. While I could use my phone, I have often found my phone battery is drained by the end of a practice session. iOS metronomes tend to have an abundance of features, but I only need the most fundamental in a metronome: keep time. 
 
 Sometimes you just want a tool that does one thing very well. I don't want to be overwhelmed with functionality, but I do want the features that the app is designed to fulfill to be efficient and to work very well.
 
