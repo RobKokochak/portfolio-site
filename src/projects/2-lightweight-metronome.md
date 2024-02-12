@@ -10,7 +10,7 @@ siteUrl: "#"
 repoUrl: "#"
 ---
 
-<u><a href="https://www.dropbox.com/scl/fi/s8tcrmhs1lra424p98kz4/Lightweight-Metronome.zip?rlkey=zjbmzcyddv63548n2mwu6qbej&dl=0" target="_blank">Link to Download (must be on macOS Sonoma 14.0 or higher)</a></u>
+<u><a href="https://www.dropbox.com/scl/fi/s8tcrmhs1lra424p98kz4/Lightweight-Metronome.zip?rlkey=zjbmzcyddv63548n2mwu6qbej&dl=1" target="_blank">Link to Download (must be on macOS Sonoma 14.0 or higher)</a></u>
 
 <u><a href="https://github.com/RobKokochak/LightweightMetronome" target="_blank">Link to Github Repo</a></u>
 
